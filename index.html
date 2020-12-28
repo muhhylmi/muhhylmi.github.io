@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="assets/fontawesome/css/all.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/1.jpg">
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"></script>
+
+    <title>Muh Hylmi | Portfolio</title>
+  </head>
+  <body>
+
+    <i class="fas fa-angle-up back-to-top"></i>
+
+  <div class="header">
+    <div class="on-off">
+      <i class="fas fa-toggle-on btn-on"></i>
+      <i class="fas fa-toggle-off btn-on" style="display: none;"></i>
+      <i class="fas fa-sun icon-on"></i>    
+      <i class="fas fa-moon" style="display: none;"></i>
+    </div>
+
+    <nav class="hamburg">
+      <div class="container">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+  </div>
+
+  <div class="cursor"></div>
+  <div class="bubble">
+    <img src="img/bubble.png">
+    <img src="img/bubble.png">
+    <img src="img/bubble.png">
+    <img src="img/bubble.png">
+    <img src="img/bubble.png">
+  </div>
+
+    <nav class="nav">
+      <div class="container-fluid">
+        <i class="fas fa-times" id="closemenu"></i>
+        <ul>
+          <li><a href="#hero"><i class="fas fa-home"></i></a>home</li>
+          <li><a href="#about"><i class="fas fa-user"></i></a>About Me</li>
+          <li><a href="#portfolio"><i class="fas fa-tasks"></i></a>Portfolio</li>
+          <li><a href="#contact"><i class="fas fa-envelope"></i></a>Contact</li>
+        </ul>
+      </div>
+    </nav>   
+
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <h2 class="hello">Hello</h2>
+            <h1 class="ketik">I'am Muh. Hylmi</h1>
+            <h3>Freelancer | Programmer</h3>
+          </div>
+          <div class="col-lg-6">
+            <h1 class="taglog">MH</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-linkedin"></i></a>
+            <a href=""><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row title">
+          <div class="col">
+          <h2>About Me</h2>
+          <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col" id="edu">
+            <h4 class="subtitle">Pendidikan</h4>
+
+            <div class="timeline">
+             <ul>
+                 <li>
+                   <div>
+                     <time>2010 - 2013</time> <br>SMPIT IBNU ABBAS KLATEN
+                   </div>
+                 </li>
+                 <li>
+                   <div>
+                     <time>2013 - 2016</time> <br>SMAIT IBNU ABBAS KLATEN
+                   </div>
+                 </li>
+                 <li>
+                   <div>
+                     <time>2016 - Sekarang</time> <br>UNIVERSITAS SEBELAS MARET SURAKARTA 
+                   </div>
+                 </li>
+               </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <h4 class="subtitle">My Skills</h4><br>
+            <div class="skills-logo text-center">
+              <img class="img-fluid" src="img/bootstrap-4.svg">
+              <img class="img-fluid" src="img/css3.svg">
+              <img class="img-fluid" src="img/html5.svg">
+              <img class="img-fluid" src="img/python-4.svg">
+              <img class="img-fluid" src="img/django.svg">
+              <img class="img-fluid" src="img/jquery.svg">
+              <img class="img-fluid" src="img/javascript-4.svg">
+            </div>
+          </div>
+        </div>
+         
+
+         <div class="row">
+           <div class="col">
+             <h4 class="subtitle">Experience</h4>
+
+             <div class="timeline">
+              <ul>
+                  <li>
+                    <div>
+                      <time>Januari 2019 - februari 2019</time> <br>Software Developer Internship <br>PT BIPTEK INDONESIA 
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <time>2020 - sekarang</time> <br>Freelance
+                    </div>
+                  </li>
+                </ul>
+             </div>
+
+           </div>
+         </div>
+         <div class="downloadCV">
+           <a href="" class="downloadCV">Download CV</a>
+         </div>
+      </div>
+
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="row title">
+          <div class="col">
+          <h2>Portfolio</h2>
+          <hr>
+
+          <div id="stage">
+             <div id="carousel">
+                <img class="pic1" src="http://1.bp.blogspot.com/-huafjLdsCEM/U_jfqb0ma6I/AAAAAAAAA1k/hYlb9LskzVM/s1600/mobil-1.jpg" alt="Car Picture">
+
+                <img class="pic2" src="http://2.bp.blogspot.com/-gnG2RNSHGcY/U_jf0Y9ImkI/AAAAAAAAA1w/Uswgb8XQ998/s1600/mobil-2.jpg" alt="Car Pictures">
+
+                <img class="pic3" src="http://3.bp.blogspot.com/-T4a2qczkFUc/U_jf0tBIdbI/AAAAAAAAA10/4d_zK5_Age8/s1600/mobil-3.jpg" alt="Car Picture">
+
+                <img class="pic4" src="http://4.bp.blogspot.com/-yACFbGEuxWg/U_jf0tDwSFI/AAAAAAAAA1s/B76ZgNNcM0M/s1600/mobil-4.jpg" alt="Car Picture">
+
+                <img class="pic5" src="http://2.bp.blogspot.com/-QS3fIn2OGII/U_ntx587VrI/AAAAAAAAA3s/iovw4ptVt1U/s1600/car-6.png" alt="Car picture">
+              </div>
+          </div>
+
+          </div>
+        </div>
+
+
+
+        <div class="row justify-content-center my-3" id="portfolio-grid">
+          
+          <div class="col-lg-4">
+            <div class="card">
+              <img class="card-img-top" src="img/portfolio1.jpg" alt="Card image cap">
+              <div class="card-body text-center">
+                <h5 class="card-title">Web App</h5>
+                <p class="card-text">Deteksi Penyakit Daun Kentang</p>
+                <div class="moreporto">
+                  <span>more
+                </div>
+              </div>
+              <div class="list">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">HTML, CSS, and JS</li>
+                  <li class="list-group-item">Computer Vision</li>
+                  <li class="list-group-item">Django Framework</li>
+                  <li class="list-group-item">Python 3</li>
+                  <li class="list-group-item">Machine Learning</li>
+                </ul>
+                <div class="card-body">
+                  <i class="far fa-times-circle"></i>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          
+          <div class="col-lg-4">
+            <div class="card">
+              <img class="card-img-top" src="img/portfolio2.jpg" alt="Card image cap">
+              <div class="card-body text-center">
+                <h5 class="card-title">Wordpress Design</h5>
+                <p class="card-text">ELementor Landing Page Design</p>
+                <div class="moreporto">
+                  <span>more
+                </div>
+              </div>
+              <div class="list">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Elementor</li>
+                  <li class="list-group-item">Contact Form 7</li>
+                  <li class="list-group-item">Html & css</li>
+                </ul>
+                <div class="card-body">
+                  <i class="far fa-times-circle"></i>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card">
+              <img class="card-img-top" src="img/portfolio3.png" alt="Card image cap">
+              <div class="card-body text-center">
+                <h5 class="card-title">Wordpress Website</h5>
+                <p class="card-text">Custom Template From Html, Css, and Javascript</p>
+                <div class="moreporto">
+                  <span>more
+                </div>
+              </div>
+              <div class="list">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">HTML, CSS, and Javascript</li>
+                  <li class="list-group-item">Wordpress Templating</li>
+                  <li class="list-group-item">SMTP Configuration</li>
+                  <li class="list-group-item">PHP</li>
+                </ul>
+                <div class="card-body">
+                  <i class="far fa-times-circle"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card">
+              <img class="card-img-top" src="img/portfolio4.jpg" alt="Card image cap">
+              <div class="card-body text-center">
+                <h5 class="card-title">Landing Page Design</h5>
+                <p class="card-text">Website Design for Medical Course UK</p>
+                <div class="moreporto">
+                  <span>more
+                </div>
+              </div>
+              <div class="list">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">HTML, CSS, and Javascript</li>
+                  <li class="list-group-item">Bootstrap</li>
+                  <li class="list-group-item">Responsive Design</li>
+                </ul>
+                <div class="card-body">
+                  <i class="far fa-times-circle"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card">
+              <img class="card-img-top" src="img/portfolio5.png" alt="Card image cap">
+              <div class="card-body text-center">
+                <h5 class="card-title">Sentiment Analisis</h5>
+                <p class="card-text">Twitter Sentiment Analysisi Using Textblob</p>
+                <div class="moreporto">
+                  <span>more
+                </div>
+              </div>
+              <div class="list">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Bootstrap CSS</li>
+                  <li class="list-group-item">Django Framework</li>
+                  <li class="list-group-item">Twitter Scrapping</li>
+                  <li class="list-group-item">Textblob library</li>
+                </ul>
+                <div class="card-body">
+                  <i class="far fa-times-circle"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card">
+              <img class="card-img-top" src="img/portfolio6.png" alt="Card image cap">
+              <div class="card-body text-center">
+                <h5 class="card-title">Web Design</h5>
+                <p class="card-text">Car Service Landing Page Website</p>
+                <div class="moreporto">
+                  <span>more
+                </div>
+              </div>
+              <div class="list">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Bootstrap CSS</li>
+                  <li class="list-group-item">Javascript, JQuery</li>
+                  <li class="list-group-item">HTML</li>
+                </ul>
+                <div class="card-body">
+                  <i class="far fa-times-circle"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="row title">
+          <div class="col">
+          <h2>Contact</h2>
+          <hr>
+          </div>
+        </div>
+
+        <div class="row justify-content-center my-5">
+          <div class="col-lg-8">
+            <form class="myForm" id="myForm">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nama</label>
+                <input type="text" class="form-control" name="Nama" id="exampleFormControlInput1" placeholder="" required="">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Pesan Kepada Saya</label>
+                <textarea class="form-control" name="Pesan" id="exampleFormControlTextarea1" rows="3" required=""></textarea>
+              </div>
+            </form>
+              <div class="mb-3">
+                <button type="submit" class="kirim" onclick='SubForm()'>Kirim Pesan</button>
+              </div>
+              <div class="alert alert-success" role="alert">
+                A simple success alert—check it out!
+              </div>
+              
+              <div class="alert alert-danger" role="alert">
+                A simple danger alert—check it out!
+              </div>
+
+          </div>
+          
+        </div> 
+      </div>
+    </section>
+
+
+    <section class="footer" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <h1>MH</h1>
+          </div>
+          
+          <div class="col-lg-4">
+            <h5>Usefull Links</h5>
+            <hr>
+            <ul>
+              <li><a href=""><i class="fas fa-angle-right"></i> Home</a></li>
+              <li><a href=""><i class="fas fa-angle-right"></i> About Me</a></li>
+              <li><a href=""><i class="fas fa-angle-right"></i> Portfolio</a></li>
+              <li><a href=""><i class="fas fa-angle-right"></i> Contact</a></li>
+              <li><a href="kemitbelajar.blogspot.com"><i class="fas fa-angle-right"></i> Blog</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4">
+            <h5>Follow Me On</h5>
+            <hr>
+            <div class="socmed">
+              <a href=""><i class="fab fa-instagram"></i></a>
+              <a href=""><i class="fab fa-linkedin"></i></a>
+              <a href=""><i class="fab fa-facebook"></i></a>
+              <a href=""><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="js/script.js"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
