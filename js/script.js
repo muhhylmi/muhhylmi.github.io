@@ -126,8 +126,6 @@ for (var i = 0; i <= navlinks.length-1; i++) {
 //FOOTER MENU TO SECTION
 var footerlink = document.querySelectorAll('.footer ul li a');
 
-console.log(navlinks);
-
 footerlink.forEach(link=>{
 	link.addEventListener("click", ()=>{
 		anchor = link.getAttribute('href');
@@ -199,18 +197,22 @@ button.addEventListener('mouseleave', ()=>{
 
 //SEND FORM TO GOOGLE SHEETS
 var success = document.querySelector('.alert-success');
-var gagal = document.querySelector('.alert-danger')
+var gagal = document.querySelector('.alert-danger');
+var loader = document.querySelector('#loader');
 
 function SubForm (){
+	loader.style.display='inline';
   $.ajax({
     url:"https://api.apispreadsheets.com/data/5613/",
     type:"post",
     data:$("#myForm").serializeArray(),
     success: function(){
       success.style.display='block';
+      loader.style.display='none';
     },
     error: function(){
       gagal.style.display='block';
+      loader.style.display='none';
     }
   });
 }

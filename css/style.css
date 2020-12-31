@@ -750,6 +750,19 @@ section{
 }
 
 
+#loader{
+	margin-left: 10px;
+	animation: mubeng 4s linear infinite;
+	display: none;
+}
+
+@keyframes mubeng{
+	0%{
+		transform: rotate(0deg);
+	}100%{
+		transform: rotate(360deg);
+	}
+}
 
 /*============Footer=============	*/
 
