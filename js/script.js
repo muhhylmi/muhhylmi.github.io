@@ -1,3 +1,5 @@
+// ABOUT ANIMATION
+
 function isElementInViewport(el) {
   var rect = el.getBoundingClientRect();
   return (
@@ -7,7 +9,6 @@ function isElementInViewport(el) {
     rect.right <= (window.innerWidth || document.documentElement.clientWidth)
   );
 }
-
 
 
 var items = document.querySelectorAll(".timeline li");
@@ -22,10 +23,12 @@ function callbackFunc() {
   }
 }
 
- 
 window.addEventListener("load", callbackFunc);
 window.addEventListener("scroll", callbackFunc);
 
+
+
+// GELAP TERANG ANIMATION
 
 var body = document.querySelector('body');
 var btn_on = document.querySelector('.fa-toggle-on');
@@ -73,6 +76,7 @@ btn_off.addEventListener('click', function () {
 });
 
 
+// HEADER SCROLLED
 window.addEventListener('scroll', function(el) {
 	height_scroll = window.pageYOffset;
 	if (height_scroll>=200) {
@@ -83,6 +87,7 @@ window.addEventListener('scroll', function(el) {
 })
 
 
+//BACK TO TOP
 let backtop = document.querySelector('.back-to-top');
 
 backtop.addEventListener('click', function () {
@@ -105,12 +110,8 @@ closemenu.addEventListener("click", function () {
 	document.querySelector('.hamburg').style.display='block';
 })
 
+//MENU TO ID SECTION
 var navlinks = document.querySelectorAll('.nav li a');
-// element.getAttribute(attributename)
-
-// var elmnt = document.getElementById("about");
-// elmnt.scrollIntoView();
-
 
 for (var i = 0; i <= navlinks.length-1; i++) {
 	nav_click = navlinks[i];
@@ -121,6 +122,22 @@ for (var i = 0; i <= navlinks.length-1; i++) {
 	});
 	}
 
+
+//FOOTER MENU TO SECTION
+var footerlink = document.querySelectorAll('.footer ul li a');
+
+console.log(navlinks);
+
+footerlink.forEach(link=>{
+	link.addEventListener("click", ()=>{
+		anchor = link.getAttribute('href');
+		anchor.scrollIntoView;
+	});
+});
+
+
+
+// CURSOR CUSTOMIZATION
 var mouseCursor = document.querySelector('.cursor');
 var bubble = document.querySelectorAll('.bubble img');
 window.addEventListener('mousemove', function (e) {
@@ -180,6 +197,7 @@ button.addEventListener('mouseleave', ()=>{
 });
 
 
+//SEND FORM TO GOOGLE SHEETS
 var success = document.querySelector('.alert-success');
 var gagal = document.querySelector('.alert-danger')
 
@@ -197,10 +215,8 @@ function SubForm (){
   });
 }
 
-// console.log(new Date())
 
-
-
+// PRTFOLIO MODAL
 linkmore.forEach(l=>{
 	l.addEventListener('click', ()=>{
 		l.parentElement.parentElement.nextElementSibling.style.display='block';

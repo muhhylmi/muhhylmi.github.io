@@ -114,7 +114,7 @@ a,button{
 
 .hamburg{
 	position: fixed;
-	left: 10%;
+	left: 5%;
 	top: 2%;
 	padding: 10px;
 	/*background-color: #111;*/
@@ -239,7 +239,7 @@ i.back-to-top:hover{
 
 section{
 	border-bottom: 1000px 6px inset;
-	box-shadow: 1050px 10px 1px #cc005f;
+	box-shadow: 1000px 10px 1px #cc005f;
 }
 
 @media (max-width: 768px) {
@@ -354,6 +354,9 @@ section{
 		margin-top: 140px;
 	}
 	.hero h3{
+		font-size: 30px;
+	}
+	.hero .ketik{
 		font-size: 30px;
 	}
 	.hero .taglog{
